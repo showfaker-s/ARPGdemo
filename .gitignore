@@ -1,0 +1,15 @@
+Library
+Logs
+Packages
+UserSettings
+.vsconfig
+.vs
+CrazyBird.sln
+Temp
+obj
+Bin
+*.sln
+*.csproj
+*.userprefs
+*.unityproj
+*.DS_Store
