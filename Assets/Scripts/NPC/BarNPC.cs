@@ -16,9 +16,9 @@ public class BarNPC : NPC
     public GameObject btnAccept;
     public GameObject btnCancel;
     public GameObject btnApply;
-    public PlayerStatus status;
+    private PlayerStatus status;
     //public GameObject btnClose;
-
+    public AudioSource audio;
     void Start()
     {
         status = GameObject.FindGameObjectWithTag(Tags.player).GetComponent<PlayerStatus>();
@@ -29,6 +29,7 @@ public class BarNPC : NPC
     {
         if (Input.GetMouseButtonDown(1))//µ„ª˜¡À¿œ“Ø“Ø
         {
+            audio.Play();
             ShowQuest();
             if (isInTask)
             {

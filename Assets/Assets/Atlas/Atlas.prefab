@@ -47,8 +47,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: f4a251382d5a73e48b17ce031c806eba, type: 2}
   mSprites:
   - name: armor0-icon
-    x: 884
-    y: 1246
+    x: 769
+    y: 513
     width: 101
     height: 107
     borderLeft: 0
@@ -60,8 +60,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 2
   - name: armor1-icon
-    x: 1379
-    y: 541
+    x: 1909
+    y: 1345
     width: 112
     height: 107
     borderLeft: 0
@@ -73,8 +73,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 2
   - name: armor2-icon
-    x: 884
-    y: 1135
+    x: 1730
+    y: 504
     width: 91
     height: 110
     borderLeft: 0
@@ -86,8 +86,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 8
   - name: armor3-icon
-    x: 1951
-    y: 498
+    x: 1632
+    y: 398
     width: 91
     height: 110
     borderLeft: 0
@@ -99,8 +99,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 8
   - name: bar-cast
-    x: 1222
-    y: 442
+    x: 1113
+    y: 344
     width: 391
     height: 15
     borderLeft: 0
@@ -112,8 +112,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 14
   - name: bar-castframe
-    x: 1222
-    y: 458
+    x: 127
+    y: 680
     width: 407
     height: 31
     borderLeft: 0
@@ -125,8 +125,8 @@ MonoBehaviour:
     paddingTop: 4
     paddingBottom: 6
   - name: Bar-enemy
-    x: 0
-    y: 564
+    x: 871
+    y: 501
     width: 450
     height: 19
     borderLeft: 0
@@ -138,8 +138,8 @@ MonoBehaviour:
     paddingTop: 32
     paddingBottom: 32
   - name: Bar-exp
-    x: 1140
-    y: 421
+    x: 0
+    y: 606
     width: 668
     height: 17
     borderLeft: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
     paddingBottom: 9
   - name: Bar-frame
     x: 0
-    y: 917
+    y: 957
     width: 461
     height: 39
     borderLeft: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
     paddingBottom: 27
   - name: Bar-frame-inv
     x: 0
-    y: 957
+    y: 917
     width: 461
     height: 39
     borderLeft: 0
@@ -190,8 +190,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 27
   - name: Bar-hp
-    x: 0
-    y: 584
+    x: 871
+    y: 521
     width: 450
     height: 19
     borderLeft: 0
@@ -203,8 +203,8 @@ MonoBehaviour:
     paddingTop: 32
     paddingBottom: 32
   - name: Bar-mp
-    x: 0
-    y: 604
+    x: 127
+    y: 660
     width: 450
     height: 19
     borderLeft: 0
@@ -216,8 +216,8 @@ MonoBehaviour:
     paddingTop: 32
     paddingBottom: 32
   - name: Button-Accept
-    x: 181
-    y: 458
+    x: 865
+    y: 443
     width: 139
     height: 57
     borderLeft: 0
@@ -229,8 +229,8 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: Button-Accept-Down
-    x: 772
-    y: 470
+    x: 1005
+    y: 443
     width: 139
     height: 57
     borderLeft: 0
@@ -242,8 +242,8 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: Button-Apply
-    x: 1909
-    y: 1111
+    x: 348
+    y: 559
     width: 89
     height: 46
     borderLeft: 0
@@ -255,8 +255,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Button-Apply-Down
-    x: 0
-    y: 314
+    x: 90
+    y: 430
     width: 89
     height: 46
     borderLeft: 0
@@ -268,8 +268,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Button-Buy
-    x: 579
-    y: 420
+    x: 168
+    y: 559
     width: 89
     height: 46
     borderLeft: 0
@@ -281,8 +281,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Button-Buy-Down
-    x: 310
-    y: 401
+    x: 0
+    y: 559
     width: 89
     height: 46
     borderLeft: 0
@@ -294,8 +294,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: button-cancel
-    x: 362
-    y: 480
+    x: 234
+    y: 869
     width: 180
     height: 47
     borderLeft: 0
@@ -307,8 +307,8 @@ MonoBehaviour:
     paddingTop: 3
     paddingBottom: 5
   - name: button-cancel2
-    x: 315
-    y: 859
+    x: 1806
+    y: 286
     width: 139
     height: 57
     borderLeft: 0
@@ -320,8 +320,8 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: button-cancel2-down
-    x: 632
-    y: 507
+    x: 1806
+    y: 344
     width: 139
     height: 57
     borderLeft: 0
@@ -333,214 +333,6 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: button-cancel-down
-    x: 0
-    y: 468
-    width: 180
-    height: 47
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 5
-    paddingRight: 4
-    paddingTop: 3
-    paddingBottom: 5
-  - name: Button-Closet
-    x: 321
-    y: 486
-    width: 29
-    height: 29
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Button-ClosetDown
-    x: 1574
-    y: 496
-    width: 29
-    height: 29
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: button-loadgame
-    x: 1398
-    y: 494
-    width: 175
-    height: 31
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 9
-    paddingRight: 4
-    paddingTop: 8
-    paddingBottom: 12
-  - name: button-loadgame-disable
-    x: 1222
-    y: 495
-    width: 175
-    height: 31
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 9
-    paddingRight: 4
-    paddingTop: 8
-    paddingBottom: 12
-  - name: button-loadgame-down
-    x: 543
-    y: 467
-    width: 183
-    height: 39
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 5
-    paddingRight: 0
-    paddingTop: 4
-    paddingBottom: 8
-  - name: button-newgame
-    x: 321
-    y: 448
-    width: 167
-    height: 31
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 10
-    paddingRight: 7
-    paddingTop: 5
-    paddingBottom: 9
-  - name: button-newgame-down
-    x: 0
-    y: 428
-    width: 175
-    height: 39
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 6
-    paddingRight: 3
-    paddingTop: 1
-    paddingBottom: 5
-  - name: Button-PlusStat
-    x: 727
-    y: 477
-    width: 29
-    height: 29
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Button-PlusStatDown
-    x: 976
-    y: 1141
-    width: 29
-    height: 29
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: button-quit
-    x: 181
-    y: 516
-    width: 180
-    height: 47
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 3
-    paddingTop: 3
-    paddingBottom: 3
-  - name: button-quit-down
-    x: 0
-    y: 516
-    width: 180
-    height: 47
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 3
-    paddingTop: 3
-    paddingBottom: 3
-  - name: Button-Reset
-    x: 489
-    y: 420
-    width: 89
-    height: 46
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Button-Reset-Down
-    x: 400
-    y: 373
-    width: 89
-    height: 46
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: button-return
-    x: 451
-    y: 576
-    width: 180
-    height: 47
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 3
-    paddingTop: 3
-    paddingBottom: 3
-  - name: button-return-down
-    x: 451
-    y: 528
-    width: 180
-    height: 47
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 3
-    paddingTop: 3
-    paddingBottom: 3
-  - name: button-save
     x: 1326
     y: 788
     width: 180
@@ -553,9 +345,243 @@ MonoBehaviour:
     paddingRight: 4
     paddingTop: 3
     paddingBottom: 5
+  - name: Button-Closet
+    x: 1113
+    y: 413
+    width: 29
+    height: 29
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button-ClosetDown
+    x: 2015
+    y: 1104
+    width: 29
+    height: 29
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button-loadgame
+    x: 1113
+    y: 381
+    width: 175
+    height: 31
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 4
+    paddingTop: 8
+    paddingBottom: 12
+  - name: button-loadgame-disable
+    x: 0
+    y: 392
+    width: 175
+    height: 31
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 4
+    paddingTop: 8
+    paddingBottom: 12
+  - name: button-loadgame-down
+    x: 1145
+    y: 413
+    width: 183
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 0
+    paddingTop: 4
+    paddingBottom: 8
+  - name: button-newgame
+    x: 0
+    y: 477
+    width: 167
+    height: 31
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 7
+    paddingTop: 5
+    paddingBottom: 9
+  - name: button-newgame-down
+    x: 865
+    y: 403
+    width: 175
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 5
+  - name: Button-Ok
+    x: 1337
+    y: 457
+    width: 47
+    height: 35
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button-Ok-Down
+    x: 824
+    y: 875
+    width: 47
+    height: 35
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button-PlusStat
+    x: 1470
+    y: 378
+    width: 29
+    height: 29
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button-PlusStatDown
+    x: 1909
+    y: 256
+    width: 29
+    height: 29
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button-quit
+    x: 578
+    y: 672
+    width: 180
+    height: 47
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 3
+  - name: button-quit-down
+    x: 1724
+    y: 453
+    width: 180
+    height: 47
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 3
+  - name: Button-Reset
+    x: 0
+    y: 512
+    width: 89
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button-Reset-Down
+    x: 0
+    y: 430
+    width: 89
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button-return
+    x: 1322
+    y: 493
+    width: 180
+    height: 47
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 3
+  - name: button-return-down
+    x: 1822
+    y: 549
+    width: 180
+    height: 47
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 3
+  - name: button-save
+    x: 1822
+    y: 501
+    width: 180
+    height: 47
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 3
+    paddingBottom: 5
   - name: button-save-down
-    x: 227
-    y: 664
+    x: 1724
+    y: 405
     width: 180
     height: 47
     borderLeft: 0
@@ -567,8 +593,8 @@ MonoBehaviour:
     paddingTop: 3
     paddingBottom: 5
   - name: Button-Sell
-    x: 134
-    y: 344
+    x: 258
+    y: 559
     width: 89
     height: 46
     borderLeft: 0
@@ -580,8 +606,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Button-Sell-Down
-    x: 310
-    y: 354
+    x: 90
+    y: 512
     width: 89
     height: 46
     borderLeft: 0
@@ -593,8 +619,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: coin-icon
-    x: 1620
-    y: 490
+    x: 760
+    y: 621
     width: 115
     height: 124
     borderLeft: 0
@@ -632,8 +658,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 6
   - name: icon-boot0
-    x: 1048
-    y: 545
+    x: 669
+    y: 509
     width: 99
     height: 111
     borderLeft: 0
@@ -645,8 +671,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 5
   - name: icon-boot0-01
-    x: 1862
-    y: 370
+    x: 760
+    y: 746
     width: 121
     height: 127
     borderLeft: 0
@@ -658,8 +684,8 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 0
   - name: icon-etcFang
-    x: 696
-    y: 903
+    x: 1987
+    y: 407
     width: 53
     height: 93
     borderLeft: 0
@@ -671,8 +697,8 @@ MonoBehaviour:
     paddingTop: 23
     paddingBottom: 12
   - name: icon-etcFur
-    x: 921
-    y: 441
+    x: 769
+    y: 424
     width: 95
     height: 88
     borderLeft: 0
@@ -684,8 +710,8 @@ MonoBehaviour:
     paddingTop: 24
     paddingBottom: 16
   - name: icon-helm
-    x: 508
-    y: 670
+    x: 1946
+    y: 326
     width: 99
     height: 75
     borderLeft: 0
@@ -697,8 +723,8 @@ MonoBehaviour:
     paddingTop: 27
     paddingBottom: 26
   - name: icon-helm-01
-    x: 98
-    y: 665
+    x: 884
+    y: 1110
     width: 128
     height: 103
     borderLeft: 0
@@ -710,8 +736,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: icon-helm-02
-    x: 508
-    y: 746
+    x: 1909
+    y: 1242
     width: 114
     height: 102
     borderLeft: 0
@@ -723,8 +749,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 13
   - name: icon-helm-03
-    x: 1736
-    y: 481
+    x: 1909
+    y: 1930
     width: 125
     height: 118
     borderLeft: 0
@@ -736,8 +762,8 @@ MonoBehaviour:
     paddingTop: 5
     paddingBottom: 5
   - name: icon-null
-    x: 884
-    y: 1107
+    x: 1909
+    y: 1106
     width: 105
     height: 27
     borderLeft: 0
@@ -749,8 +775,8 @@ MonoBehaviour:
     paddingTop: 85
     paddingBottom: 16
   - name: icon-potion1
-    x: 1909
-    y: 1848
+    x: 1724
+    y: 306
     width: 81
     height: 98
     borderLeft: 0
@@ -762,8 +788,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 13
   - name: icon-potion2
-    x: 1140
-    y: 439
+    x: 1503
+    y: 408
     width: 81
     height: 98
     borderLeft: 0
@@ -775,8 +801,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 13
   - name: icon-potion3
-    x: 1951
-    y: 609
+    x: 1905
+    y: 402
     width: 81
     height: 98
     borderLeft: 0
@@ -788,8 +814,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 13
   - name: icon-ring
-    x: 234
-    y: 863
+    x: 1507
+    y: 782
     width: 80
     height: 53
     borderLeft: 0
@@ -801,8 +827,8 @@ MonoBehaviour:
     paddingTop: 44
     paddingBottom: 31
   - name: icon-ring-01
-    x: 1909
-    y: 1947
+    x: 0
+    y: 667
     width: 126
     height: 101
     borderLeft: 0
@@ -814,8 +840,8 @@ MonoBehaviour:
     paddingTop: 20
     paddingBottom: 7
   - name: icon-shield
-    x: 884
-    y: 1354
+    x: 1909
+    y: 1453
     width: 110
     height: 117
     borderLeft: 0
@@ -827,8 +853,8 @@ MonoBehaviour:
     paddingTop: 7
     paddingBottom: 4
   - name: icon-shield1
-    x: 623
-    y: 731
+    x: 1909
+    y: 1571
     width: 110
     height: 117
     borderLeft: 0
@@ -840,8 +866,8 @@ MonoBehaviour:
     paddingTop: 7
     paddingBottom: 4
   - name: icon-tailman
-    x: 0
-    y: 663
+    x: 1632
+    y: 509
     width: 97
     height: 105
     borderLeft: 0
@@ -853,8 +879,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 7
   - name: infoname
-    x: 1630
-    y: 441
+    x: 1145
+    y: 453
     width: 191
     height: 39
     borderLeft: 6
@@ -866,14 +892,14 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: LabelTag
-    x: 134
-    y: 391
+    x: 535
+    y: 685
     width: 36
     height: 36
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
+    borderLeft: 3
+    borderRight: 3
+    borderTop: 3
+    borderBottom: 3
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
@@ -905,8 +931,8 @@ MonoBehaviour:
     paddingTop: 20
     paddingBottom: 14
   - name: menu-bag-down
-    x: 727
-    y: 379
+    x: 1041
+    y: 352
     width: 71
     height: 90
     borderLeft: 0
@@ -931,8 +957,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 14
   - name: menu-equip-down
-    x: 799
-    y: 377
+    x: 1329
+    y: 360
     width: 69
     height: 92
     borderLeft: 0
@@ -944,58 +970,6 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 8
   - name: MenuHead-Equip
-    x: 0
-    y: 769
-    width: 233
-    height: 73
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: MenuHead-Inventory
-    x: 234
-    y: 775
-    width: 233
-    height: 73
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: MenuHead-Shop
-    x: 0
-    y: 843
-    width: 233
-    height: 73
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: MenuHead-Skill
-    x: 462
-    y: 849
-    width: 233
-    height: 73
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: MenuHead-Status
     x: 462
     y: 923
     width: 233
@@ -1008,9 +982,61 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: MenuHead-Inventory
+    x: 462
+    y: 849
+    width: 233
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuHead-Shop
+    x: 0
+    y: 769
+    width: 233
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuHead-Skill
+    x: 0
+    y: 843
+    width: 233
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuHead-Status
+    x: 234
+    y: 775
+    width: 233
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: menu-setting
-    x: 1015
-    y: 354
+    x: 1580
+    y: 318
     width: 67
     height: 79
     borderLeft: 0
@@ -1022,8 +1048,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 19
   - name: menu-setting-down
-    x: 1862
-    y: 508
+    x: 1946
+    y: 234
     width: 79
     height: 91
     borderLeft: 0
@@ -1035,8 +1061,8 @@ MonoBehaviour:
     paddingTop: 8
     paddingBottom: 13
   - name: menu-skill
-    x: 976
-    y: 1171
+    x: 2003
+    y: 522
     width: 44
     height: 74
     borderLeft: 0
@@ -1048,8 +1074,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 20
   - name: menu-skill-down
-    x: 1991
-    y: 1861
+    x: 824
+    y: 911
     width: 56
     height: 85
     borderLeft: 0
@@ -1061,8 +1087,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: menu-status
-    x: 940
-    y: 291
+    x: 1648
+    y: 253
     width: 59
     height: 74
     borderLeft: 0
@@ -1074,8 +1100,8 @@ MonoBehaviour:
     paddingTop: 20
     paddingBottom: 18
   - name: menu-status-down
-    x: 869
-    y: 354
+    x: 1399
+    y: 406
     width: 70
     height: 86
     borderLeft: 0
@@ -1113,8 +1139,8 @@ MonoBehaviour:
     paddingTop: 35
     paddingBottom: 1
   - name: Menu-WindowEquip
-    x: 442
-    y: 997
+    x: 1467
+    y: 1574
     width: 441
     height: 474
     borderLeft: 0
@@ -1126,8 +1152,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 1
   - name: Menu-WindowInventory
-    x: 0
-    y: 997
+    x: 1025
+    y: 1574
     width: 441
     height: 474
     borderLeft: 0
@@ -1139,7 +1165,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 1
   - name: Menu-WindowQuest
-    x: 1467
+    x: 1025
     y: 1099
     width: 441
     height: 474
@@ -1152,7 +1178,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 1
   - name: Menu-WindowShop
-    x: 1025
+    x: 1467
     y: 1099
     width: 441
     height: 474
@@ -1165,8 +1191,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 1
   - name: Menu-WindowSkill
-    x: 1467
-    y: 1574
+    x: 0
+    y: 997
     width: 441
     height: 474
     borderLeft: 0
@@ -1178,8 +1204,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 1
   - name: Menu-WindowStatus
-    x: 1025
-    y: 1574
+    x: 442
+    y: 997
     width: 441
     height: 474
     borderLeft: 0
@@ -1191,8 +1217,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 1
   - name: minimap-zoomin
-    x: 0
-    y: 361
+    x: 1842
+    y: 219
     width: 66
     height: 66
     borderLeft: 0
@@ -1204,8 +1230,8 @@ MonoBehaviour:
     paddingTop: 5
     paddingBottom: 5
   - name: minimap-zoomin-down
-    x: 67
-    y: 361
+    x: 1775
+    y: 219
     width: 66
     height: 66
     borderLeft: 0
@@ -1217,8 +1243,8 @@ MonoBehaviour:
     paddingTop: 5
     paddingBottom: 5
   - name: minimap-zoomout
-    x: 176
-    y: 391
+    x: 1708
+    y: 239
     width: 66
     height: 66
     borderLeft: 0
@@ -1230,8 +1256,8 @@ MonoBehaviour:
     paddingTop: 5
     paddingBottom: 5
   - name: minimap-zoomout-down
-    x: 243
-    y: 391
+    x: 1909
+    y: 167
     width: 66
     height: 66
     borderLeft: 0
@@ -1243,8 +1269,8 @@ MonoBehaviour:
     paddingTop: 5
     paddingBottom: 5
   - name: new-iconpsd
-    x: 1048
-    y: 434
+    x: 1951
+    y: 597
     width: 91
     height: 110
     borderLeft: 0
@@ -1269,8 +1295,8 @@ MonoBehaviour:
     paddingTop: 9
     paddingBottom: 4
   - name: rod-icon
-    x: 1262
-    y: 527
+    x: 1909
+    y: 1808
     width: 116
     height: 121
     borderLeft: 0
@@ -1282,8 +1308,8 @@ MonoBehaviour:
     paddingTop: 4
     paddingBottom: 3
   - name: rod-icon02
-    x: 1148
-    y: 538
+    x: 1909
+    y: 1689
     width: 113
     height: 118
     borderLeft: 0
@@ -1295,8 +1321,8 @@ MonoBehaviour:
     paddingTop: 4
     paddingBottom: 6
   - name: rod-icon03
-    x: 1909
-    y: 1266
+    x: 635
+    y: 720
     width: 124
     height: 128
     borderLeft: 0
@@ -1308,8 +1334,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: shortcutskill
-    x: 940
-    y: 366
+    x: 1505
+    y: 333
     width: 74
     height: 74
     borderLeft: 0
@@ -1321,8 +1347,8 @@ MonoBehaviour:
     paddingTop: 7
     paddingBottom: 7
   - name: skill-01
-    x: 1843
-    y: 600
+    x: 1200
+    y: 549
     width: 107
     height: 107
     borderLeft: 0
@@ -1334,8 +1360,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 10
   - name: skill-02
-    x: 1735
-    y: 615
+    x: 1524
+    y: 507
     width: 107
     height: 107
     borderLeft: 0
@@ -1347,8 +1373,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 10
   - name: skill-03
-    x: 1627
-    y: 615
+    x: 1416
+    y: 541
     width: 107
     height: 107
     borderLeft: 0
@@ -1360,6 +1386,32 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 10
   - name: skill-04
+    x: 876
+    y: 549
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-05
+    x: 1909
+    y: 1134
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-06
     x: 1873
     y: 708
     width: 107
@@ -1372,7 +1424,33 @@ MonoBehaviour:
     paddingRight: 10
     paddingTop: 11
     paddingBottom: 10
-  - name: skill-05
+  - name: skill-07
+    x: 1308
+    y: 541
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-08
+    x: 1092
+    y: 549
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-09
     x: 1873
     y: 816
     width: 107
@@ -1385,61 +1463,9 @@ MonoBehaviour:
     paddingRight: 10
     paddingTop: 11
     paddingBottom: 10
-  - name: skill-06
-    x: 684
-    y: 565
-    width: 107
-    height: 107
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 11
-    paddingRight: 10
-    paddingTop: 11
-    paddingBottom: 10
-  - name: skill-07
-    x: 734
-    y: 673
-    width: 107
-    height: 107
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 11
-    paddingRight: 10
-    paddingTop: 11
-    paddingBottom: 10
-  - name: skill-08
-    x: 734
-    y: 781
-    width: 107
-    height: 107
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 11
-    paddingRight: 10
-    paddingTop: 11
-    paddingBottom: 10
-  - name: skill-09
-    x: 750
-    y: 889
-    width: 107
-    height: 107
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 11
-    paddingRight: 10
-    paddingTop: 11
-    paddingBottom: 10
   - name: skill-10
-    x: 1909
-    y: 1158
+    x: 1627
+    y: 615
     width: 107
     height: 107
     borderLeft: 0
@@ -1451,8 +1477,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 10
   - name: skill-11
-    x: 1909
-    y: 1395
+    x: 1735
+    y: 615
     width: 107
     height: 107
     borderLeft: 0
@@ -1464,8 +1490,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 10
   - name: skill-12
-    x: 1909
-    y: 1503
+    x: 1843
+    y: 600
     width: 107
     height: 107
     borderLeft: 0
@@ -1477,8 +1503,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 10
   - name: skill-13
-    x: 1909
-    y: 1611
+    x: 984
+    y: 549
     width: 107
     height: 107
     borderLeft: 0
@@ -1490,8 +1516,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 10
   - name: Slot-layout
-    x: 608
-    y: 661
+    x: 1648
+    y: 328
     width: 69
     height: 69
     borderLeft: 0
@@ -1503,8 +1529,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: sword0-icon
-    x: 1909
-    y: 1719
+    x: 884
+    y: 1214
     width: 126
     height: 128
     borderLeft: 0
@@ -1516,8 +1542,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: sword0-icon00
-    x: 792
-    y: 528
+    x: 884
+    y: 1343
     width: 128
     height: 128
     borderLeft: 0
@@ -1529,8 +1555,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: sword1-icon
-    x: 921
-    y: 530
+    x: 508
+    y: 722
     width: 126
     height: 126
     borderLeft: 0
@@ -1542,8 +1568,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 2
   - name: sword2-icon
-    x: 1492
-    y: 526
+    x: 696
+    y: 874
     width: 127
     height: 122
     borderLeft: 0
@@ -1568,8 +1594,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 12
   - name: window-amoutdrop
-    x: 408
-    y: 665
+    x: 127
+    y: 722
     width: 89
     height: 46
     borderLeft: 0
