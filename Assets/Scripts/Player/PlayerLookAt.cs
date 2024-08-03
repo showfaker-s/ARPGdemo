@@ -18,10 +18,14 @@ public class PlayerLookAt : MonoBehaviour
     }
     void Update()
     {
-
-
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)
+            && !UICamera.isOverUI
+            //&& UICamera.hoveredObject.gameObject == null//鼠标下面没有UI控件
+            )
         {
+            bool isoverUI = UICamera.isOverUI;
+            GameObject hoverGo = UICamera.hoveredObject.gameObject;
+
             //MainCamera作为主视野，把屏幕上的点转为射线
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             //拿到碰撞信息
