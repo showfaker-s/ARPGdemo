@@ -36,12 +36,13 @@ public class InventoryDes : MonoBehaviour
         {
             case ObjType.Drug: des = getDrugInfo(info);
                 break;
-            case ObjType.Equip:
+            case ObjType.Equip: des = getEquipInfo(info);
                 break;
             case ObjType.Mat:
                 break;
         }
         desLab.text = des;
+
     }
     string getDrugInfo(ObjInfo info)
     {
@@ -49,6 +50,50 @@ public class InventoryDes : MonoBehaviour
         str += "名称: " + info.name + "\n";
         str += "hp: " + info.hp + "\n";
         str += "mp: " + info.mp + "\n";
+        str += "sell: " + info.price_sell + "\n";
+        str += "buy: " + info.price_buy + "\n";
+        return str;
+    }
+    string getEquipInfo(ObjInfo info)
+    {
+        string str = "";
+        str += "名称: " + info.name + "\n穿戴类型：";
+        switch (info.dressType)
+        {
+            case DressType.Headgear:
+                str += "头盔\n";
+                break;
+            case DressType.Armor:
+                str += "盔甲\n";
+                break;
+            case DressType.LeftHand:
+                str += "左手\n";
+                break;
+            case DressType.RightHand:
+                str += "右手\n";
+                break;
+            case DressType.Shoe:
+                str += "鞋\n";
+                break;
+            case DressType.Accessory:
+                str += "饰品\n";
+                break;
+        }
+        switch (info.charaType)
+        {
+            case CharaType.Swordman:
+                str += "适用类型：剑士\n";
+                break;
+            case CharaType.Magician:
+                str += "适用类型：魔法师\n";
+                break;
+            case CharaType.Common:
+                str += "适用类型：通用\n";
+                break;
+        }
+        str += "伤害值：: " + info.attack + "\n";
+        str += "防御值：: " + info.def + "\n";
+        str += "伤害值：: " + info.speed + "\n";
         str += "sell: " + info.price_sell + "\n";
         str += "buy: " + info.price_buy + "\n";
         return str;

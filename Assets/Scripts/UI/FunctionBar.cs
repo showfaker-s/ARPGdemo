@@ -14,6 +14,7 @@ public class FunctionBar : MonoBehaviour
     }
     public void OnEquipButtonClick()
     {
+        EquipmentUI.Instance.TransformState();
 
     }
     public void OnSkillButtonClick()

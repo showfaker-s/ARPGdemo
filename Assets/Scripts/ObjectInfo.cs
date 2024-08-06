@@ -66,15 +66,54 @@ public class ObjectInfo : MonoBehaviour
                 //存储信息
                 info.hp = hp; info.mp = mp; info.price_sell = price_sell; info.price_buy = price_buy;
             }
-            if (objInfoDic.ContainsKey(id))
+            else if (type == ObjType.Equip)
             {
-
+                info.attack = int.Parse(proArray[4]);
+                info.def = int.Parse(proArray[5]);
+                info.speed = int.Parse(proArray[6]);
+                info.price_sell = int.Parse(proArray[9]);
+                info.price_buy = int.Parse(proArray[10]);
+                string str_dresstype = proArray[7];
+                switch (str_dresstype)
+                {
+                    case "Headgear":
+                        info.dressType = DressType.Headgear;
+                        break;
+                    case "Armor":
+                        info.dressType = DressType.Armor;
+                        break;
+                    case "LeftHand":
+                        info.dressType = DressType.LeftHand;
+                        break;
+                    case "RightHand":
+                        info.dressType = DressType.RightHand;
+                        break;
+                    case "Shoe":
+                        info.dressType = DressType.Shoe;
+                        break;
+                    case "Accessory":
+                        info.dressType = DressType.Accessory;
+                        break;
+                }
+                string str_Charatype = proArray[8];
+                switch (str_Charatype)
+                {
+                    case "Swordman":
+                        info.charaType = CharaType.Swordman;
+                        break;
+                    case "Magician":
+                        info.charaType = CharaType.Magician;
+                        break;
+                    case "Common":
+                        info.charaType = CharaType.Common;
+                        break;
+                }
             }
-            else
+            else if(type == ObjType.Mat)
             {
-                objInfoDic.Add(id, info);//id是key，根据key查询v
-
+                Debug.Log("type == ObjType.Mat");
             }
+            objInfoDic.Add(id, info);//添加到字典中，id为key，可以很方便的根据id查找到这个物品信息
         }
     }
 }
@@ -83,6 +122,21 @@ public enum ObjType
     Drug,
     Equip,
     Mat
+}
+public enum DressType
+{
+    Headgear,
+    Armor,
+    LeftHand,
+    RightHand,
+    Shoe,
+    Accessory
+}
+public enum CharaType
+{
+    Swordman,//剑士
+    Magician,//魔法师
+    Common//通用
 }
 public class ObjInfo
 {
@@ -94,5 +148,11 @@ public class ObjInfo
     public int mp;
     public int price_sell;
     public int price_buy;
+
+    public int attack;
+    public int def;
+    public int speed;
+    public DressType dressType;
+    public CharaType charaType;
 
 }

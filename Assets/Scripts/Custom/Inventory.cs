@@ -20,7 +20,7 @@ public class Inventory : BasePanel<Inventory>
     {
         if (Input.GetKeyDown(KeyCode.X))
         {
-            GetID(UnityEngine.Random.Range(1001, 1004));
+            GetID(UnityEngine.Random.Range(2001, 2023));
         }
     }
     //拾取物品
@@ -28,24 +28,23 @@ public class Inventory : BasePanel<Inventory>
     {
 
     }
-    //拾取物品功能
-    public void GetID(int id)
+    //+物品功能
+    public void GetID(int id, int count = 1)
     {
         //1、在所有物品中查该物品是否存在
-
         InventoryItemGrid grid = null;
         foreach (InventoryItemGrid temp in itemGridList)
         {
             //把grid和列表匹配对应上
-            if(temp.id == id)
+            if (temp.id == id)
             {
-                grid = temp;break;
+                grid = temp; break;
             }
         }
         //2、若存在，num+1，存在的情况根据id来判断
-        if(grid != null)
+        if (grid != null)
         {
-            grid.AddNumber();
+            grid.AddNumber(count);
         }
         //3、不存在的情况
         else
@@ -55,21 +54,32 @@ public class Inventory : BasePanel<Inventory>
             foreach (InventoryItemGrid temp in itemGridList)
             {
                 //找空格子
-                if(temp.id == 0)
+                if (temp.id == 0)
                 {
-                    grid = temp;break;
+                    grid = temp; break;
                 }
             }
-            //不存在且格子没满
-            if(grid != null)
+            //背包里不存在此物体，且格子没满
+            if (grid != null)
             {
                 GameObject itemGo = NGUITools.AddChild(grid.gameObject, InventoryItem);
                 itemGo.transform.localPosition = Vector3.zero;
-                grid.SetId(id);
+                //加个count
+                grid.SetId(id,count);
             }
         }
     }
-
+    //消费金币
+    public bool Buy(int price)
+    {
+        if (coinCount >= price)
+        {
+            coinCount -= price;
+            coinLabel.text = coinCount.ToString();
+            return true;
+        }
+        return false;
+    }
     private void Show()
     {
         tween.PlayForward();
