@@ -16,6 +16,23 @@ public class InventoryItemGrid : MonoBehaviour
         //更新显示
         numLabel.text = this.num.ToString();
     }
+    public bool MinusNumber(int num = 1)
+    {
+        if(this.num >= num)
+        {
+            this.num -= num;
+            if (this.num ==0)
+            {
+                ClearInfo();//情况存储的信息
+                //销毁物品格子
+                Destroy(this.GetComponentInChildren<InventoryItem>().gameObject);
+            }
+            //更新显示
+            numLabel.text = this.num.ToString();
+            return true;
+        }
+        return false;
+    }
     //num默认为1,把类对象item放到格子里变成真的item
     public void SetId(int id, int num = 1)
     {

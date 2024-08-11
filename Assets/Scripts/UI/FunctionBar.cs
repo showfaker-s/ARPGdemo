@@ -19,7 +19,7 @@ public class FunctionBar : MonoBehaviour
     }
     public void OnSkillButtonClick()
     {
-
+        SkillUI.Instance.TransformState();
     }
     public void OnSettingButtonClick()
     {

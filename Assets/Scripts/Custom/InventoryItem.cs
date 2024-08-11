@@ -18,7 +18,17 @@ public class InventoryItem : UIDragDropItem
         if(isHover)
         {
             InventoryDes._instance.Show(id);
+            //必须放到悬浮条件下，否则会把装备栏中所有装备都dress一遍
+            if (Input.GetMouseButtonDown(1))
+            {
+                bool success = EquipmentUI.Instance.Dress(id);
+                if (success)
+                {
+                    transform.parent.GetComponent<InventoryItemGrid>().MinusNumber();
+                }
+            }
         }
+
     }
 
     //拖拽结束时调用本方法，surface是拖拽结束时鼠标下的物体
@@ -42,7 +52,6 @@ public class InventoryItem : UIDragDropItem
                     InventoryItemGrid oldGrid = this.transform.parent.GetComponent<InventoryItemGrid>();
                     InventoryItemGrid newGrid = surface.GetComponent<InventoryItemGrid>();
                     this.transform.parent = surface.transform;
-                    ResetPos();
                     newGrid.SetId(oldGrid.id, oldGrid.num);
                     oldGrid.ClearInfo();
                 }

@@ -75,6 +75,7 @@ public class Inventory : BasePanel<Inventory>
         if (coinCount >= price)
         {
             coinCount -= price;
+            //¸üĞÂÏÔÊ¾
             coinLabel.text = coinCount.ToString();
             return true;
         }
